@@ -1,8 +1,6 @@
 
 package datasturctures.geeksForGeeks;
 
-import java.util.Arrays;
-
 public class Test{
  
 	static void doThing() {

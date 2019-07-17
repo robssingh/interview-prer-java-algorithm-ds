@@ -1,6 +1,5 @@
 package datasturctures.geeksForGeeks.array;
 
-import java.util.Scanner;
 
 public class SubArrayWithGivenSum {
 	/*
@@ -30,9 +29,11 @@ public class SubArrayWithGivenSum {
 		    System.out.println(-1);
 	}
 	
-	/*improved solution
+	/*
+	 * improved solution
 	 * take first index as sum--- keep adding next-- if sum matches gsum then return
-	 * if exceeds remove first element from sub-array */
+	 * if exceeds remove first element from sub-array 
+	 * */
 	
 	static void subArrayImproved(int[] A, int gsum) {
 		int n = A.length;
@@ -52,14 +53,14 @@ public class SubArrayWithGivenSum {
 			}
 			tsum= tsum+A[i];
 		}
-		
-		
 	}
 	
-	/*max length subarray with given sum
+	/*
+	 * max length subarray with given sum
 	 * first loop for all elements
 	 * second loop keep adding numbers i to array length
-	 * if sum==gsum  update maxLen and endInd*/
+	 * if sum==gsum  update maxLen and endInd
+	 * */
 	
 	public static int maxSubarray(int[] A, int gsum) {
 		int maxLen = 0;
@@ -99,9 +100,10 @@ public class SubArrayWithGivenSum {
 //		}
 //		sc.close();
 		
-		int arr[] = {15, 2, 4, 8, 9, 5, 10, 23}; 
+//		int arr[] = {15, 2, 4, 8, 9, 5, 10, 23}; 
 //		subArray(arr, 23);
 //		subArrayImproved(arr, 23);
+		
 		int[] A = { 5, 6, -5, 5, 3, 5, 3, -2, 0 };
 		System.out.println(maxSubarray(A, 8));
 	}
