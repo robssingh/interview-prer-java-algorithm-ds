@@ -1,6 +1,13 @@
 package algorithms;
 
 public class KnapsackProblem {
+	
+	/*
+	 * Given set of objects with weights and values
+	 * Container with fixed capacity
+	 * Find maximum value achievable
+	 * Object can either be taken or not taken, partial not allowed
+	 * */
 	static int[] weight, value;
 	public static int getMaxValue(int[] wt, int[] val, int capacity) {
 		weight = wt;

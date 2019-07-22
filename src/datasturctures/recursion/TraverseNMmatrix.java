@@ -3,10 +3,10 @@ package datasturctures.recursion;
 public class TraverseNMmatrix {
 
 	/*
-	 * number of ways to travel n cross m matrix
-	 * can go right or down
-	 * travel from top left to bottom right corner
-	 * one unit at a time*/
+	 * Calculate number of ways to travel n*m matrix
+	 * Travel from top left to bottom right corner
+	 * Can go right or down
+	 * One unit at a time*/
 	
 	static int traverseMatrix(int row, int column) {
 		if(row==1 || column==1) {

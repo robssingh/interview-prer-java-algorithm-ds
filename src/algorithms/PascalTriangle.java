@@ -3,17 +3,21 @@ package algorithms;
 import java.util.Arrays;
 
 public class PascalTriangle {
-
+	/*
+	 * Pascal's triangle 
+	 * every entry is sum of above 2 values, top element starts with 1 and in each row end elements are also 1
+	 * Solution:
+	 * Create 2D array
+	 * fill first and last element with 1 remaining will be sum of curret and previous index in last row
+	 * */
 	static void printPascal(int n) {
 		
 		int[][] arr = new int[n][n];
 		for(int i=0; i<n; i++) {
 			for(int j=0; j<=i; j++) {
-				//first and last will be 1
 				if(j==i || j==0) {
 					arr[i][j] = 1;
 				}else {
-//					remaining will be sum of previous index and current in previous line
 					arr[i][j] = arr[i-1][j-1] + arr[i-1][j];
 				}
 			}

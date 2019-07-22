@@ -21,11 +21,12 @@ public class FloodFill {
 	}
 	
 	
-/*recursive function	
- * make recursive call in four directions
- * change value if matches current value
- * return if not matches to current value
-  */
+	/*
+	 * recursive function	
+	 * make recursive call in four directions
+	 * change value if matches current value
+	 * return if not matches to current value
+	 * */
 	public void rec(int x, int y, int curr ) {
 		if(x>=0 && y>=0 && x<8 && y<8) {
 		if(ffarr[x][y] != curr){
