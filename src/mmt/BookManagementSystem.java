@@ -44,7 +44,7 @@ public class BookManagementSystem {
 	}
 	
 	//issue Book
-	@SuppressWarnings({ "deprecation", "deprecation" })
+	@SuppressWarnings({ "deprecation" })
 	public void issueBook(int id) {
 		Book b = books.get(id);
 		if(b.issuedFlag==false) {
