@@ -1,7 +1,5 @@
 package multiThreading;
 
-import java.util.HashMap;
-
 //public class Test {
 public class Runtime1{  
 	 public static void main(String args[])throws Exception{  

@@ -1,7 +1,7 @@
 package practice;
 import java.util.*;
-import java.lang.*;
-import java.io.*;
+//import java.lang.*;
+//import java.io.*;
 public class testClass {
 	/*package whatever //do not write package name here */
 

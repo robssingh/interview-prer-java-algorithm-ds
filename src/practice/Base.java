@@ -1,5 +1,5 @@
 package practice;
-import multiThreading.ThreadUsingRunnable;
+//import multiThreading.ThreadUsingRunnable;
 class Base { 
     protected int x, y; 
    
@@ -11,11 +11,11 @@ class Base {
   
 //public class Main { 
     public static void main(String args[]) { 
-      Base p = null; 
+      //Base p = null; 
 //      System.out.println("x = " + p.x + ", y = " + p.y); 
 //      p.doSth();
-      derived obj1 = new derived();
-      obj1.doSth();
+      //derived obj1 = new derived();
+    //  obj1.doSth();
       
       
     }     

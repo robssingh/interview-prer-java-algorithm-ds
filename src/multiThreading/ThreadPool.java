@@ -12,7 +12,6 @@ public class ThreadPool implements Runnable{
 	
 	
 	public void run() {
-		// TODO Auto-generated method stub
 		for(int i=0; i<5; i++) {
 			if(i==0) {
 				System.out.println("Initializing thread--"+name);
@@ -22,7 +21,6 @@ public class ThreadPool implements Runnable{
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}

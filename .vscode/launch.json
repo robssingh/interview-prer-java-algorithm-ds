@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FloodFill",
+            "request": "launch",
+            "mainClass": "algorithms.FloodFill",
+            "projectName": "RobinPractice"
+        }
+    ]
+}

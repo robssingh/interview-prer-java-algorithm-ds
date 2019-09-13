@@ -44,7 +44,7 @@ public class ThreadUsingRunnable{
 	
 	
 	public static void main(String[] args) {
-		SampleThread T1 = new SampleThread("T1");
+		//SampleThread T1 = new SampleThread("T1");
 	}
 	
 }
