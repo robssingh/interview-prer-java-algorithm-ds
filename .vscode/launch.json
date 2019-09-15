@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LeaderInArray",
+            "request": "launch",
+            "mainClass": "datasturctures.geeksForGeeks.array.LeaderInArray",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KthSmallestNumber",
+            "request": "launch",
+            "mainClass": "datasturctures.geeksForGeeks.array.KthSmallestNumber",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KadaneAlgorithm",
+            "request": "launch",
+            "mainClass": "datasturctures.geeksForGeeks.array.KadaneAlgorithm",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PascalTriangle",
+            "request": "launch",
+            "mainClass": "algorithms.PascalTriangle",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FloodFill",
             "request": "launch",
             "mainClass": "algorithms.FloodFill",

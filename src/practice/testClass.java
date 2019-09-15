@@ -3,7 +3,6 @@ import java.util.*;
 //import java.lang.*;
 //import java.io.*;
 public class testClass {
-	/*package whatever //do not write package name here */
 
 	static boolean checkPalin(String ip) {
 		ip = ip.replaceAll("[^a-zA-Z0-9]","").toUpperCase();

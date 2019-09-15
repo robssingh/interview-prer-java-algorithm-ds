@@ -10,14 +10,14 @@ public class KthSmallestNumber {
 		int n = A.length;
 		
 		 for(int i=0; i<kth; i++){
-		        int min = i;
+		        int max = i;
 		        for(int j=i+1; j<n; j++){
-		            if(A[j]<A[min]){
-		                min=j;
+		            if(A[j]>A[max]){
+		                max=j;
 		            }
 		        }
-		        int temp = A[min];
-		        A[min] = A[i];
+		        int temp = A[max];
+		        A[max] = A[i];
 		        A[i] = temp;
 		    }
 		 
@@ -25,6 +25,7 @@ public class KthSmallestNumber {
 	}
 	public static void main (String[] args) {
 		//code
-		
+		int[] arr = {3, 6, 1, 14, 23, 9, -5};
+		System.out.println(kthSmallestElement(arr, 1));
 	}
 }

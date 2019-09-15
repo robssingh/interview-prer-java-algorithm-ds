@@ -12,7 +12,7 @@ public class FloodFill {
 				            {1, 1, 1, 1, 1, 2, 1, 1},
 				            {1, 1, 1, 1, 1, 2, 2, 1},
 				            };
-	static int fCol=8;
+	static int fCol=5;
 	
 	public void floodFillAlgo( int x, int y) {
 		x--; y--;
