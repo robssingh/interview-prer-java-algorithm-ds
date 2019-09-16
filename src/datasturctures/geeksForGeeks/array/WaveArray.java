@@ -6,7 +6,12 @@ public class WaveArray {
 	
 	/*
 	 * convert integer array in the form of wave.. starting from increasing 
-	 * next smaller againg next greater.. so on...*/
+	 * next smaller again next greater.. so on...
+	 * iterate over array
+	 * alternateFlag for remembering order, increasing or decreasing
+	 * in each case checking accordigly whether next element is greater or smaller
+	 * swap the element if true, rest will be taken care automatically
+	 * */
 
 	static void waveArray(int[] A) {
 		int n = A.length;

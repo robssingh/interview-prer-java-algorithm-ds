@@ -3,7 +3,7 @@ package datasturctures.geeksForGeeks.array;
 
 public class SubArrayWithGivenSum {
 	/*
-	 * find starting and ending index with subarray with given sum
+	 * find starting and ending index for subarray with given sum
 	 * simple n square solution
 	 * for each index find sum till sum matches gsum and return ans or exit if exceeds
 	 * */

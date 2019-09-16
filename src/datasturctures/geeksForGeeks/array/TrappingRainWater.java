@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class TrappingRainWater {
 	
 	/*
-	 * find total rain water in from array.. element denotes height of wall at the index
-	 * create left maximum larr and right maximum array rarr
-	 * fill larr-- first element with A and max of previous in A or previous in larr
-	 * fill rarr-- from end--- last from A-- then max of next in A or rarr
+	 * find total rain water in an array A[].. element denotes height of wall at the index
+	 * water filled at index will be equal to min of (left max and right max walls)
+	 * create left maximum array larr and right maximum array rarr
+	 * fill larr-- first element with A[0]--then max of (previous in A or previous in larr)
+	 * fill rarr-- from end--- last element A[n-1]-- then max of (next in A or net in rarr)
 	 * water at each index equals min of rarr and larr minus value in A*/
 	
 	static void rainWater(int[] A) {
@@ -34,7 +35,6 @@ public class TrappingRainWater {
 	}
 	
 	public static void main (String[] args) {
-		//code
 		Scanner sc = new Scanner(System.in);
 		int nt = sc.nextInt();
 		while(nt-->0){
