@@ -1,8 +1,7 @@
 package practice;
 import java.util.*;
-//import java.lang.*;
-//import java.io.*;
 public class testClass {
+	/*package whatever //do not write package name here */
 
 	static boolean checkPalin(String ip) {
 		ip = ip.replaceAll("[^a-zA-Z0-9]","").toUpperCase();
@@ -64,7 +63,7 @@ public static int isPower(int A) {
         }
     }
     int commonPower = 0;
-    for(Map.Entry entry:map.entrySet()){
+    for(Map.Entry<Integer, Integer> entry:map.entrySet()){
         int power = (int)entry.getValue();
          System.out.println(entry.getKey() + " : " + entry.getValue()+" ");
         if(commonPower==0){
