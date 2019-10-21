@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EquilibriumPoint",
+            "request": "launch",
+            "mainClass": "datasturctures.geeksForGeeks.array.EquilibriumPoint",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - WaveArray",
             "request": "launch",
             "mainClass": "datasturctures.geeksForGeeks.array.WaveArray",
