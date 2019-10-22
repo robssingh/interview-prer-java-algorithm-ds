@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReverseStackUsingRecursion",
+            "request": "launch",
+            "mainClass": "datasturctures.recursion.ReverseStackUsingRecursion",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseStackUsingRecursion",
+            "request": "launch",
+            "mainClass": "ReverseStackUsingRecursion",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - EquilibriumPoint",
             "request": "launch",
             "mainClass": "datasturctures.geeksForGeeks.array.EquilibriumPoint",
