@@ -40,7 +40,7 @@ public class SubArrayWithGivenSum {
 		int fi=0;
 		int si=0;
 		int tsum = A[0];
-		for(int i=1; i<n; i++) {
+		for(int i=1; i<=n; i++) {
 			while(tsum>gsum && fi<i-1) {
 				tsum = tsum-A[fi];
 				fi++;
@@ -51,7 +51,9 @@ public class SubArrayWithGivenSum {
 				System.out.println(fi+1+" "+(si+1));
 				return;
 			}
-			tsum= tsum+A[i];
+
+			if(i<n)
+				tsum= tsum+A[i];
 		}
 	}
 	
