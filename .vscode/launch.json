@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TrappingRainWater",
+            "request": "launch",
+            "mainClass": "datasturctures.geeksForGeeks.array.TrappingRainWater",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FormPalindrome",
             "request": "launch",
             "mainClass": "datasturctures.strings.FormPalindrome",
