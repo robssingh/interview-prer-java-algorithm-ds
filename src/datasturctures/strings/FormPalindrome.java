@@ -11,7 +11,7 @@ public class FormPalindrome {
 	static int formPalindrome(String s, int fi, int li) {
 		if(fi==li)
 			return 0;	
-		if(fi==li-1) {		//eg ab - ans- bab or aba
+		if(fi==li-1) {		//eg ab -- solution -> bab or aba
 			if(s.charAt(fi)==s.charAt(li))
 				return 0;
 			else

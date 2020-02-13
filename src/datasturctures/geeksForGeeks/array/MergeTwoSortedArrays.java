@@ -28,6 +28,16 @@ public class MergeTwoSortedArrays {
 			System.out.print(B[k]+" ");
 		}
 		System.out.println();
-	}
+    }
+    
+    /*
+    * Merge two sorted arrays. Better Solution.
+    * Take gap of n/2, keep swapping start and end elements(in inner loop) like selection sort algo.
+    * Keep reducing the gap by n/2 in outer loop.
+    * 
+    */
+    public static void mergeGap(int[] A, int[] B, int m, int n){
+        
+    }    
 
 }
