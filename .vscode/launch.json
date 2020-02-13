@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MissingNumberInArray",
+            "request": "launch",
+            "mainClass": "datasturctures.geeksForGeeks.array.MissingNumberInArray",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TrappingRainWater",
             "request": "launch",
             "mainClass": "datasturctures.geeksForGeeks.array.TrappingRainWater",
