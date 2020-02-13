@@ -23,7 +23,7 @@ class GFG {
 		    method(A, B, m, n);
 		    nt--;
 		}
-		// sc.close();
+		sc.close();
 	}
 	
 	public static void method(int[] A, int[] B, int m, int n){
