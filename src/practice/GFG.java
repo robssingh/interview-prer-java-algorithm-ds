@@ -27,15 +27,24 @@ class GFG {
 	}
 	
 	public static void method(int[] A, int[] B, int m, int n){
-		int[] maxArr = new int[n];
-		maxArr[0] = A[0];
-		int maxVal = A[0];
-		for(int i=1; i<n; i++){
-			maxArr[i] = Math.max(A[i], maxArr[i-1]+A[i]);
-			if(maxVal<maxArr[i]){
-				maxVal = maxArr[i];
+		for(int i=n-1; i>=0; i--){
+			int lastA = A[m-1];
+			int j;
+			for(j=m-2; j>=0 && A[j]>B[i]; j--){
+				A[j+1]=A[j];
+			}
+			if(j!=m-2 || lastA>B[i]){
+				A[j+1]=B[i];
+				B[i]=lastA;
 			}
 		}
-		System.out.println(maxVal);
+		System.out.println();
+		for(int k=0; k<m; k++){
+			System.out.print(A[k]+" ");
+		}
+		for(int k=0; k<n; k++){
+			System.out.print(B[k]+" ");
+		}
+		System.out.println();
 	}
 }
