@@ -3,7 +3,9 @@ package datasturctures.tree;
 public class IdenticalTrees {
 	
 	Node root1, root2;
-	Node root;
+    Node root;
+    // Two trees are identical if they have exactly same structure
+    // and arrangement of nodes. In same order
 	static boolean identicalTree(Node node1, Node node2) {
 		if(node1==null && node2==null) {
 			return true;
@@ -20,9 +22,24 @@ public class IdenticalTrees {
 	
 	
 	//check if tree is mirror of itself
-	//same approach as above
+    //same approach as above. only difference is that 
+    //we need to compare left with right
 	boolean isMirror(Node root) {
-		return identicalTree(root, root);
+		return symmetricTree(root, root);
+    }
+    
+    static boolean symmetricTree(Node node1, Node node2) {
+		if(node1==null && node2==null) {
+			return true;
+		}
+		if(node1!=null && node2!=null) {
+			
+			return ((node1.key == node2.key) &&
+            symmetricTree(node1.left, node2.left) &&
+            symmetricTree(node1.right, node2.right));
+		}
+		
+		return false;
 	}
 	
 	
