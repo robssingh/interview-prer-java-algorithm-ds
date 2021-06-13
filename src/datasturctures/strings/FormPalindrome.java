@@ -22,9 +22,11 @@ public class FormPalindrome {
 		//if chars at indexes are equal check for remaining string
 		if(s.charAt(fi)==s.charAt(li)) {
 			return formPalindrome(s, fi+1, li-1);
-		}else {
-			//else min of (either keep right index or keep left index). +1 because add
-			return Math.min(formPalindrome(s, fi+1, li), formPalindrome(s, fi, li-1))+1;
+		} else {
+			//else min of (either keep right index or keep left index).
+			//add 1 to that because either one of left out character(first or last index) 
+			//will need one character added same as itself to form palindrome
+			return Math.min(formPalindrome(s, fi+1, li), formPalindrome(s, fi, li-1)) + 1;
 		}
 		
 	}

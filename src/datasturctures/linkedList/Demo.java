@@ -1,6 +1,5 @@
 package datasturctures.linkedList;
 
-import datasturctures.linkedList.LinkedList;
 import datasturctures.linkedList.LinkedList.Node;
 
 public class Demo {

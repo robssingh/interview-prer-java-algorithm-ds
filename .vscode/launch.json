@@ -2,6 +2,202 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MovieRatingComparator",
+            "request": "launch",
+            "mainClass": "javaPractice.comparatorComparable.MovieRatingComparator",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadPool",
+            "request": "launch",
+            "mainClass": "javaPractice.multiThreading.ThreadPool",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintOddEven",
+            "request": "launch",
+            "mainClass": "javaPractice.multiThreading.PrintOddEven",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadCreation",
+            "request": "launch",
+            "mainClass": "javaPractice.multiThreading.ThreadCreation",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test1",
+            "request": "launch",
+            "mainClass": "javaPractice.Test1",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "javaPractice.Test",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImmutableStudent",
+            "request": "launch",
+            "mainClass": "javaPractice.ImmutableStudent",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch Movie",
+            "request": "launch",
+            "mainClass": "javaPractice.comparatorComparable.Movie",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch Movie",
+            "request": "launch",
+            "mainClass": "java.comparatorComparableCode.Movie",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch Movie",
+            "request": "launch",
+            "mainClass": "java.comparatorcomparable.Movie",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch Movie",
+            "request": "launch",
+            "mainClass": "java.comparatorComparable.Movie",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "java.Test",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch IdenticalTrees",
+            "request": "launch",
+            "mainClass": "datasturctures.tree.IdenticalTrees",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch Movie",
+            "request": "launch",
+            "mainClass": "java.ComparatorComparable.Movie",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ComparatorComparable",
+            "request": "launch",
+            "mainClass": "java.ComparatorComparable",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubsetSumProblem",
+            "request": "launch",
+            "mainClass": "algorithms.dynamicProgramming.SubsetSumProblem",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch longestCommonSubsequence",
+            "request": "launch",
+            "mainClass": "algorithms.dynamicProgramming.longestCommonSubsequence",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestCommonSubstring",
+            "request": "launch",
+            "mainClass": "datasturctures.strings.LongestCommonSubstring",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch KnapsackProblem",
+            "request": "launch",
+            "mainClass": "algorithms.dynamicProgramming.KnapsackProblem",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecurringFraction",
+            "request": "launch",
+            "mainClass": "practice.RecurringFraction",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch TraverseNMmatrix",
+            "request": "launch",
+            "mainClass": "datasturctures.recursion.TraverseNMmatrix",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch KnapsackProblem",
+            "request": "launch",
+            "mainClass": "algorithms.KnapsackProblem",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch longestPalindromeSubstring",
+            "request": "launch",
+            "mainClass": "datasturctures.strings.longestPalindromeSubstring",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicatesInStringArray",
+            "request": "launch",
+            "mainClass": "datasturctures.strings.RemoveDuplicatesInStringArray",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch ParenthesisChecker",
+            "request": "launch",
+            "mainClass": "datasturctures.strings.ParenthesisChecker",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationOfString",
+            "request": "launch",
+            "mainClass": "datasturctures.strings.PermutationOfString",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpecialKeyboard",
+            "request": "launch",
+            "mainClass": "datasturctures.recursion.SpecialKeyboard",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
+            "name": "Launch JosephusProblem",
+            "request": "launch",
+            "mainClass": "datasturctures.recursion.JosephusProblem",
+            "projectName": "RobinPractice"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MissingNumberInArray",
             "request": "launch",
             "mainClass": "datasturctures.geeksForGeeks.array.MissingNumberInArray",
